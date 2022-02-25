@@ -17,15 +17,15 @@ const routes: Array<RouteRecordRaw> = [
       },
       {
         path: 'currentWeather',
-        component: () => import('@/views/CurrentWeather.vue')
+        component: () => import('@/views/CurrentWeatherPage.vue')
       },
       {
         path: 'searchWeather',
-        component: () => import('@/views/FavoritesWeathers.vue')
+        component: () => import('@/views/SearchWeather.vue')
       },
       {
         path: 'favoritesWeather',
-        component: () => import('@/views/SearchWeather.vue')
+        component: () => import('@/views/FavoritesWeathers.vue')
       }
     ]
   }
